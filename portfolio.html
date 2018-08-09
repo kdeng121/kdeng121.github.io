@@ -63,7 +63,7 @@
         <hr class="star-dark mb-5">
           
         <div class="row">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4 photo-container">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
 <!--
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -72,14 +72,16 @@
                 </div>
               </div>
 -->
-              <img class="img-fluid overlay" src="img/portfolio/cabin.png" alt="">
-            <div class="overlay">This piece of shit isn't working</div>
+              <img class="img-fluid overlay image" src="img/portfolio/studybuds-icon.png" alt="">
+            <div class="middle">
+                <div class="text "><b>StudyBuds Web App</b></div>
+            </div>
 
 
             </a>
           </div>
             
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4 photo-container">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
 <!--
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -88,7 +90,11 @@
                 </div>
               </div>
 -->
-              <img class="img-fluid overlay" src="img/portfolio/cake.png" alt="">
+            <img class="img-fluid overlay image" src="img/portfolio/cabin.png" alt="">
+            <div class="middle">
+                <div class="text"><b>StudyBuds Web App</b></div>
+            </div>
+
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -149,21 +155,41 @@
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
+      <div class="portfolio-modal-dialog bg-customWhite">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
-        <div class="container text-center">
+        <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+            <div class="col-lg-12 mx-auto text-center">
+              <h2 class="text-secondary mb-0">StudyBuds: Learning together</h2>
+              <hr class="star-dark">
+                              <a class="btn btn-primary btn-lg rounded-pill " href="https://studybuds.herokuapp.com/studygroups/" target="_blank">
+                View Demo</a>
             </div>
+              
+            <div class="col-lg-6" style="padding-top: 25px;">
+                <h4>Problem</h4>
+                <p>College is hard. And like any college student, I've spent many tireless nights at the library studying for tests, hoping that the material would magically come to me. What was worse: my friends were not in the same classes as me, so I had nobody to study with. </p>
+                <h4>Solution</h4>
+                <p> As an advocate for collaborative learning, I took on the initiative to mitigate the fears of asking a stranger in class to study with you. <b>StudyBuds</b> was my simple solution. </p>
+                <p>StudyBuds is a web application that allows users to create, view, and search study groups. It was built using <b>Django</b> and <b>PostgreSQL</b> database, written in <b>Python, HTML,</b> and <b>CSS.</b>It uses </p>
+                <h4>Usage</h4>
+                <p>Found a study group you want to join? Great! Just show up at the location. Didn't find an existing group? No problem. Create one to encourage others to join. And now you won't have to worry about rejection! :)</p>
+                <h4>Improvements</h4>
+                <p>An improved version would allow users to sign in to manage their personal study groups. In the works...</p>
+                
+            </div>
+            <div class="col-lg-6" style="padding-top: 25px;">
+                    <img class="img-fluid mb-5" src="img/portfolio/studybuds.png" alt="">
+                    <img class="img-fluid mb-5" src="img/portfolio/studybuds-create.PNG" alt="">
+
+            </div>
+  
+              
+              
+              
+              
           </div>
         </div>
       </div>
@@ -171,7 +197,7 @@
 
     <!-- Portfolio Modal 2 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
+      <div class="portfolio-modal-dialog bg-customWhite">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
@@ -193,7 +219,7 @@
 
     <!-- Portfolio Modal 3 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
+      <div class="portfolio-modal-dialog bg-customWhite">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
@@ -215,7 +241,7 @@
 
     <!-- Portfolio Modal 4 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-      <div class="portfolio-modal-dialog bg-white">
+      <div class="portfolio-modal-dialog bg-customWhite">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
@@ -237,7 +263,7 @@
 
     <!-- Portfolio Modal 5 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog bg-white">
+      <div class="portfolio-modal-dialog bg-customWhite">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
@@ -259,7 +285,7 @@
 
     <!-- Portfolio Modal 6 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog bg-white">
+      <div class="portfolio-modal-dialog bg-customWhite">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>

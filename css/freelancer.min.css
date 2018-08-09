@@ -25,9 +25,34 @@ img.border:hover{
 img.overlay{
     border-radius: 15px;
 }
-.overlay:hover {
-    opacity: .2;
+.image{
     transition: .5s;
-    text-align: 
 }
 
+.photo-container:hover .image{
+    opacity: .2;
+}
+.photo-container:hover .middle{
+    opacity: 1;
+}
+
+.middle {
+  transition: .5s;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.text {
+  color: black;
+  font-size: 40px;
+}
+
+.bg-customWhite{
+    background-color: #fafafa;
+}
