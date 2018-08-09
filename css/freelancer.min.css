@@ -26,18 +26,18 @@ img.overlay{
     border-radius: 15px;
 }
 .image{
-    transition: .5s;
+    transition: .2s;
 }
 
 .photo-container:hover .image{
-    opacity: .2;
+    opacity: .05;
 }
 .photo-container:hover .middle{
     opacity: 1;
 }
 
 .middle {
-  transition: .5s;
+  transition: .2s;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -50,7 +50,7 @@ img.overlay{
 
 .text {
   color: black;
-  font-size: 40px;
+  font-size: 33px;
 }
 
 .bg-customWhite{
