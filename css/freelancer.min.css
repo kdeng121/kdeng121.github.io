@@ -7,7 +7,7 @@ img{
 img.border{
     border-radius: 15px;
 }
-img:hover{
+img.border:hover{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
@@ -21,3 +21,13 @@ img:hover{
     font-size:5.25rem;
     line-height:7.25rem
 }
+
+img.overlay{
+    border-radius: 15px;
+}
+.overlay:hover {
+    opacity: .2;
+    transition: .5s;
+    text-align: 
+}
+
