@@ -78,6 +78,15 @@ img.overlay{
     border-radius: 15px;
 }
 
+@media only screen and (max-width: 1000px) {
+  #banner-container{
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto;
+    background: #fafafa;
+  }
+}
+
 /*
 .photobanner img {
  -webkit-transition: all 0.5s ease;
