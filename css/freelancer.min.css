@@ -3,6 +3,7 @@ img{
     max-height: 100%;
     max-width: 100%;
     image-orientation: from-image;
+    border-radius: 15px;
 }
 img.border{
     border-radius: 15px;
